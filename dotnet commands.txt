@@ -1,0 +1,8 @@
+dotnet new sln -o NomeDaSolução //Solução pode ter mais de um projeto
+cd NomeDaSolução //entra na pasta criada
+dotnet new webapi -o NomeDoProjeto
+
+-- vinculando projeto com a solução
+Dentro da pasta da solução
+dotnet sln add .\NomeDoProjeto\NomeDoProjeto.csproj
+
