@@ -6,3 +6,5 @@ dotnet new webapi -o NomeDoProjeto
 Dentro da pasta da solução
 dotnet sln add .\NomeDoProjeto\NomeDoProjeto.csproj
 
+dotnet ef migrations add AddProductDdataTableOnDB - To add Migrations
+dotnet ef database update - to apply migration in database
